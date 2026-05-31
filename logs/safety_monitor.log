@@ -1,0 +1,58 @@
+2026-05-31 11:25:49 | INFO | utils.logger:setup_logger:18 | Logger initialised — level=INFO
+2026-05-31 11:25:49 | INFO | __main__:main:61 | === Industrial Safety Monitor v1.0.0 starting ===
+2026-05-31 11:25:49 | INFO | models.detector:_load_model:92 | Loading detector: yolov8n.pt → device=cpu
+2026-05-31 11:25:55 | INFO | models.detector:_load_model:97 | Detector ready.
+2026-05-31 11:25:55 | INFO | models.ppe_classifier:__init__:49 | PPE Classifier mode: heuristic
+2026-05-31 11:26:01 | INFO | __main__:main:110 | System ready. Press Q to quit, S to screenshot.
+2026-05-31 11:26:03 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:03 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:08 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:08 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:09 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P2] Person 2 — PPE violation: No Helmet
+2026-05-31 11:26:09 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P2] Person 2 — PPE violation: No Safety Vest
+2026-05-31 11:26:09 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P1] Person 1 may have fallen!
+2026-05-31 11:26:14 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:14 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:16 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P1] Person 1 may have fallen!
+2026-05-31 11:26:19 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:19 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:24 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:24 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:29 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P1] Person 1 may have fallen!
+2026-05-31 11:26:29 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:29 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:35 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:35 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P2] Person 2 — PPE violation: No Helmet
+2026-05-31 11:26:35 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P2] Person 2 — PPE violation: No Safety Vest
+2026-05-31 11:26:35 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:36 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P2] Person 2 may have fallen!
+2026-05-31 11:26:40 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:40 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P2] Person 2 — PPE violation: No Helmet
+2026-05-31 11:26:40 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P2] Person 2 — PPE violation: No Safety Vest
+2026-05-31 11:26:40 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:45 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:45 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P2] Person 2 — PPE violation: No Helmet
+2026-05-31 11:26:45 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P2] Person 2 — PPE violation: No Safety Vest
+2026-05-31 11:26:46 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:48 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P3] Person 3 — PPE violation: No Helmet
+2026-05-31 11:26:48 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P3] Person 3 — PPE violation: No Safety Vest
+2026-05-31 11:26:50 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:50 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P2] Person 2 — PPE violation: No Helmet
+2026-05-31 11:26:50 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P2] Person 2 — PPE violation: No Safety Vest
+2026-05-31 11:26:52 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:26:52 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P3] Person 3 may have fallen!
+2026-05-31 11:26:55 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:26:55 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P2] Person 2 — PPE violation: No Helmet
+2026-05-31 11:26:55 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P2] Person 2 — PPE violation: No Safety Vest
+2026-05-31 11:26:56 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P2] Person 2 may have fallen!
+2026-05-31 11:26:57 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:27:00 | CRITICAL | utils.alert_manager:trigger:62 | [ALERT][FALL_P1] Person 1 may have fallen!
+2026-05-31 11:27:00 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:27:02 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:27:05 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:27:07 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:27:11 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:27:13 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:27:16 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Safety Vest_P1] Person 1 — PPE violation: No Safety Vest
+2026-05-31 11:27:18 | WARNING | utils.alert_manager:trigger:62 | [ALERT][PPE_No Helmet_P1] Person 1 — PPE violation: No Helmet
+2026-05-31 11:27:20 | INFO | __main__:main:142 | System shut down.

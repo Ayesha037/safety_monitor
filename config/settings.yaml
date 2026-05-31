@@ -1,0 +1,80 @@
+system:
+  name: "Industrial Safety Monitor"
+  version: "1.0.0"
+  log_level: "INFO"
+
+video:
+  source: 0
+  width: 1280
+  height: 720
+  fps_target: 30
+  frame_skip: 2
+  resize_factor: 0.75
+
+model:
+  detector: "yolov8n.pt"
+  device: "auto"
+  confidence_threshold: 0.45
+  nms_iou_threshold: 0.45
+  max_detections: 50
+
+ppe:
+  person_class_id: 0
+  ppe_model_path: null
+  simulate_ppe_check: true
+  helmet_required: true
+  vest_required: true
+
+zones:
+  enabled: true
+  restricted:
+    - name: "Machinery Zone A"
+      color: [0, 0, 220]
+      points:
+        - [0.60, 0.20]
+        - [0.95, 0.20]
+        - [0.95, 0.80]
+        - [0.60, 0.80]
+    - name: "High Voltage Area"
+      color: [0, 100, 255]
+      points:
+        - [0.00, 0.00]
+        - [0.20, 0.00]
+        - [0.20, 0.35]
+        - [0.00, 0.35]
+
+fall_detection:
+  enabled: true
+  aspect_ratio_threshold: 1.4
+  min_area_fraction: 0.005
+  velocity_frames: 5
+  velocity_threshold: 80
+
+alerts:
+  cooldown_seconds: 5.0
+  log_to_file: true
+  log_path: "logs/alerts.log"
+  console_alerts: true
+  colors:
+    CRITICAL: [0, 0, 255]
+    WARNING:  [0, 165, 255]
+    INFO:     [0, 255, 255]
+
+display:
+  show_fps: true
+  show_zones: true
+  show_bboxes: true
+  show_labels: true
+  show_confidence: true
+  show_alert_banner: true
+  font_scale: 0.55
+  bbox_thickness: 2
+  person_colors:
+    safe:     [0, 200, 0]
+    warning:  [0, 165, 255]
+    critical: [0, 0, 255]
+
+recording:
+  enabled: false
+  output_path: "logs/recorded_output.avi"
+  codec: "XVID"
